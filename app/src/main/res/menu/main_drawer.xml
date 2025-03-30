@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <item
+            android:id="@+id/nav_item_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_item_reservas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Reservas" />
+        <item
+            android:id="@+id/nav_item_perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_item_salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Salir" />
+    </group>
+
+</menu>
